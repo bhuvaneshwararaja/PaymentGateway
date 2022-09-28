@@ -7,8 +7,8 @@ export const RazerPayComponent = () => {
         if(amount === 0) alert("Please Enter the Amount")
         else{
             const options = {
-                key: "rzp_test_cmGuuAd3iINOA7",
-                key_secret:"FMBsyDJASXcaurRvXXBRjzuu",
+                key: "",
+                key_secret:"",
                 amount: amount *100,
                 currency: "INR",
                 name: "Test Gateway",
